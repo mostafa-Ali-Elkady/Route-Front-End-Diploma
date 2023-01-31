@@ -1,0 +1,183 @@
+/* General */
+
+:root {
+    --main-color: #0078FF;
+
+}
+
+
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-color {
+    color: rgb(78, 78, 78);
+}
+
+.title-text {
+    font-weight: 700px;
+    font-size: 48px;
+    line-height: 57.6px;
+    color: rgb(30, 30, 30);
+}
+
+.title-border {
+    background-color: var(--main-color);
+    height: 5px;
+    width: 2.5%;
+}
+
+/* navbar */
+.nav-link,
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-nav li {
+    padding: 10px;
+}
+
+
+
+.nav-item a .myborder {
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+    height: 3.5px;
+    transition: width 0.5s;
+}
+
+.nav-item a:hover .myborder {
+    width: 35px;
+}
+
+/* header */
+header {
+    background-image: url(imgs/intro-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.name-fs {
+    font-size: 72px;
+}
+
+.header-overlay {
+    background-color: rgba(4, 4, 4, .7);
+}
+
+/* About */
+.about {
+    background-color: #F5F5F5;
+    padding-block: 100px;
+    padding-inline: 150px;
+}
+
+.about-content {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.services-item {
+    width: 30%;
+}
+
+.about-title-border {
+    background-color: var(--main-color);
+    height: 3.5px;
+    width: 20%;
+}
+
+
+/* Services */
+.services {
+    background-color: #F5F5F5;
+    padding-block: 100px;
+    padding-inline: 150px;
+}
+
+
+
+.services-item {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.services-item i {
+    border: var(--main-color) solid 10px;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+
+.services-item i:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--main-color);
+    border: #CDE1F8 solid 10px;
+}
+
+/* portfolio */
+.portfolio{
+    background-color: #F5F5F5;
+    padding-block: 100px;
+    padding-inline: 150px;
+}
+
+
+
+.portfolio-img img{
+    transition: transform 1s;
+}
+
+.portfolio-img:hover img{
+   
+    transform: scale(1.25,1.25);
+}
+
+.icon {
+    width: 35x;
+    height:35px;
+    border: #0078FF solid 2px;
+    top:15px;
+}
+
+.icon i{
+    color: var(--main-color);
+    bottom: 25px;
+}
+
+/* Work */
+.work{
+    background-image: url(imgs/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #F5F5F5;
+}
+
+.work-overlay {
+    background-color:rgba(0, 120, 255,0.7);
+}
+
+.carousel-inner{
+    top: 30%;
+}
+
+.carousel-caption{
+    top: 100%;
+}
+
+.carousel-caption i{
+color: #0078FF;
+background-color: rgb(255, 255, 255);
+width: 55px;
+height: 55px;
+}
+
