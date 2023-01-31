@@ -1,0 +1,432 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+/* home-section */
+.home {
+    background-image: url(img/slider/slider-01.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+
+.navbar {
+    float: right;
+    margin-right: 180px;
+}
+
+.navbar li {
+    float: left;
+    padding: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 300;
+    font-family: Roboto, sans-serif;
+}
+
+.home-content {
+    margin-top: 240px;
+}
+
+.home-content h1 {
+    color: rgb(255, 48, 91);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 70px;
+    line-height: 77px;
+    font-weight: 700px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.p1 {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 26.4px;
+    font-size: 24px;
+}
+
+.p2 {
+
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 31.2px;
+    font-weight: 300px;
+    border-right: #fff solid 3px;
+}
+
+
+/* about-section */
+
+.about {
+    margin: 100px;
+}
+
+
+
+.inner-img {
+
+    float: left;
+    border: rgb(85, 85, 85) solid 8px;
+    border-radius: 5px;
+}
+
+.inner-img img {
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+.about-content {
+    float: left;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(51, 51, 51);
+    position: relative;
+    left: 85px;
+}
+
+.about-content h2 {
+    line-height: 22px;
+    font-size: 34px;
+    padding: 8px;
+    border-left: solid 4px rgb(255, 48, 91);
+
+}
+
+.about-content p {
+    line-height: 25px;
+    padding: 20px;
+    width: 600px;
+    border-bottom: dashed 1px rgb(51, 51, 51);
+}
+
+.about-lst {
+    padding: 16px;
+    color: rgb(85, 85, 85);
+}
+
+.about-lst li {
+    padding: 10px;
+}
+
+.about-lst a {
+    color: rgb(126, 126, 126);
+    font-family: Roboto, sans-serif;
+    text-decoration: underline;
+}
+
+.about-lst span {
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+}
+
+.lst1 {
+    float: left;
+}
+
+.lst2 {
+    padding-left: 250px;
+}
+
+.about-btns {
+    padding: 20px;
+}
+
+.about-btns button {
+    padding: 16px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 48, 91);
+}
+
+.about-btns a {
+    color: rgb(256, 256, 256);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 550px;
+}
+
+.btn1 {
+    width: 150px;
+}
+
+.btn2 {
+    width: 120px;
+}
+
+
+/* services section */
+
+.services {
+    background-color: #F1F1F1;
+    padding: 80px;
+}
+
+.services h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800px;
+    padding-bottom: 15px;
+}
+
+.services-items {
+    padding: 50px;
+}
+
+.item {
+    width: 25%;
+    float: left;
+}
+
+
+.item h3 {
+    padding: 25px;
+    color: rgb(51, 51, 51);
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: 600px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item p {
+    color: rgb(85, 85, 85);
+    font-family: Roboto, sans-serif;
+    line-height: 25px;
+}
+
+/* portfolio */
+
+.portfolio {
+    padding: 80px;
+    color: rgb(51, 51, 51);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.portfolio-heading {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800px;
+}
+
+
+.portfolio-btns {
+    padding: 30px;
+    font-family: Roboto, sans-serif;
+
+}
+
+.portfolio-btns button {
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.pink {
+    color: rgb(255, 48, 91);
+}
+
+.portfolio-imgs1 img,
+.portfolio-imgs2 img {
+    float: left;
+    width: 33%;
+    padding: 15px;
+}
+
+
+/* statistics-section */
+
+.statistics {
+    background-color: rgb(241, 241, 241);
+}
+
+.statistics-content {
+    padding: 100px;
+}
+
+.statistics-item {
+    float: left;
+    width: 25%;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.statistics-item h3 {
+    padding: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 26px;
+    line-height: 28.6px;
+    font-weight: 800px;
+}
+
+.statistics-item h5 {
+    color: rgb(85, 85, 85);
+    line-height: 17.6px;
+}
+
+/* testimonial-section */
+
+.testimonial {
+    padding: 60px;
+}
+
+.testimonial-heading {
+    color: rgb(51, 51, 51);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800px;
+}
+
+
+/* blog-section */
+
+.blog {
+    background-color: rgb(241, 241, 241);
+    padding: 60px;
+
+}
+
+.blog-heading {
+    padding-bottom: 15px;
+    color: rgb(51, 51, 51);
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800px;
+}
+
+.blog-item {
+
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.item-inner {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+
+.blog-item p,
+.blog-item a {
+    padding: 25px;
+}
+
+.blog-item p {
+    color: rgb(85, 85, 85);
+    font-family: Roboto, sans-serif;
+    line-height: 25px;
+}
+
+.blog-item a {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+    font-weight: 600px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.RM {
+    font: size 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: Roboto, sans-serif;
+}
+
+/* contact */
+
+.contact {
+    padding: 60px;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: rgb(51, 51, 51);
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 30px;
+    font-weight: 800px;
+}
+
+.contact-form {
+    padding: 40px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.contact-form input {
+    margin: 20px;
+    padding: 8px;
+    width: 40%;
+    border: rgb(193, 193, 193) solid 1px;
+    border-radius: 5px;
+}
+
+.contact-form .long {
+    width: 85%;
+}
+
+.contact-form textarea {
+    padding: 8px;
+    margin-left: 20px;
+    border: rgb(193, 193, 193) solid 1px;
+    border-radius: 5px
+}
+
+.contact-form button {
+    margin: 20px;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    background-color: rgb(255, 48, 91);
+    border-radius: 5px;
+}
+
+/* footer-section */
+
+.footer {
+    background-color: #333333;
+    padding: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto, sans-serif;
+}
+
+.footer a {
+    color: rgb(255, 48, 91);
+}
+
+.icons img {
+    width: 35px;
+    padding: 3px;
+}

@@ -1,0 +1,82 @@
+@media screen and (max-width:567px) {
+
+    .navbar {
+        height: 35px;
+    }
+
+    .icon-list {
+        display: none;
+
+    }
+    .mail{
+        width:50%;
+        float: left;
+    }
+
+    .phone {
+        
+        width: 50%;
+    }
+
+
+    .home-head ul{
+        display: none;
+    }
+
+    .home-head h1{
+        float: left;
+    }
+
+.welcome-img img{
+    
+   width: 400px;
+   height: 150px;
+   
+}
+
+.welcome-content{
+    width: 100%;
+    text-align: center;
+}
+
+.video-icon{
+    width: 50%;
+    float: left;
+}
+.get-started{
+    width: 50%;
+    float: right;
+}
+
+}
+
+@media all and (min-width:567px) and (max-width:800px){
+
+.container{
+    width: auto;
+}
+
+.home-head{
+    position: fixed;
+}
+
+    .home-head ul{
+        display: none;
+    }
+
+    .welcome-img{
+       width: 400px;
+       height: 200px
+    }
+
+   
+    .welcome-content{
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+   
+   
+
+}

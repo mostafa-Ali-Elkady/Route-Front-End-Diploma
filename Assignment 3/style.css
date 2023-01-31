@@ -1,0 +1,81 @@
+body,
+html {
+    height: 100%;
+}
+
+.txt-align {
+    text-align: center;
+}
+
+.home {
+    background-image: url("images/drew-coffman-1872.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-content button {
+    width: 110px;
+    height: 50px;
+    color: white;
+}
+
+.learn {
+    background-color: rgb(173, 132, 77);
+}
+
+.contact {
+    background-color: transparent;
+}
+
+.home-content h2 {
+    color: rgb(212, 209, 203);
+}
+
+.home-content h1 {
+    color: white;
+}
+
+.who-we-are-img {
+    display: inline-block;
+    padding: 20px;
+}
+
+.who-we-are-img img {
+    width: 600px;
+}
+
+.who-we-are-content {
+    display: inline-block;
+    width: 50%;
+    padding-left: 60px;
+}
+
+.list li {
+    padding: 10px;
+}
+
+.list {
+    text-align: left;
+}
+
+.our-location {
+    background-color: #eee;
+}
+
+.our-location-content {
+    display: inline-block;
+    width: 35%;
+    padding: 60px;
+}
+
+.our-location-img {
+    display: inline-block;
+    padding: 20px;
+    left: 30px;
+}
+
+.our-location-img img {
+    width: 600px;
+}
