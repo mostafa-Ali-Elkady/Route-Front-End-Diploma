@@ -1,0 +1,40 @@
+.form-content {
+    background-color: #eee;
+    width: 95%;
+}
+
+.form-content button {
+    width: 7%;
+    transition: box-shadow .2s;
+}
+
+.form-content button:hover {
+    box-shadow: 2px 2px 5px #0A3F77;
+
+}
+
+
+
+.bookmarks{
+    width: 97%;
+}
+
+.bookmark-content{
+    background-image: linear-gradient(#eee, white);
+}
+
+.bookmark-content button{
+    height: 80%;
+}
+
+button:hover{
+    box-shadow: #0A3F77;
+}
+
+.warning{
+    
+    background-color: #FFB2B2;
+    color: #6D0000;
+    border: #6D0000 1px solid;
+    border-radius: 5px;
+}
